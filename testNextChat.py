@@ -33,7 +33,7 @@ models = [
     # ChatGLM
     "glm-4-plus", "glm-4-0520", "glm-4", "glm-4-air", "glm-4-airx"
     
-    # OpenAi
+    #ChatGPT
     "gpt-3.5-turbo", "gpt-3.5-turbo-1106", "gpt-3.5-turbo-0125",
     "gpt-4-turbo", "gpt-4-turbo-preview", "gpt-4.1", "gpt-4o",
     "gpt-4.1-2025-04-14", "gpt-4o-2024-05-13", "gpt-4.1-mini",
@@ -99,8 +99,4 @@ def run_batch_query():
     return results
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     all_results = run_batch_query()
-=======
-    all_results = run_batch_query()
->>>>>>> 18af329 (Initial commit)
