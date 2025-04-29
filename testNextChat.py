@@ -99,4 +99,8 @@ def run_batch_query():
     return results
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     all_results = run_batch_query()
+=======
+    all_results = run_batch_query()
+>>>>>>> 18af329 (Initial commit)
